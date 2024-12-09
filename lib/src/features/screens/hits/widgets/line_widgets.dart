@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// линия подназванием экрана
 class LineWidgets extends StatelessWidget {
   const LineWidgets({super.key});
 

@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/models/product_model/product_model.dart';
 import 'package:flutter/material.dart';
 
+/// Католог новинок
 class ProductsWidget extends StatelessWidget {
   const ProductsWidget({super.key});
 
@@ -16,8 +17,7 @@ class ProductsWidget extends StatelessWidget {
               imageName: AppAssets.unstressTotal,
               productCategory: AppStrings.serum,
               productName: 'Unstress Total Serenity Serum',
-              price: '10 195'
-              ),
+              price: '10 195'),
           SizedBox(
             width: 14,
           ),

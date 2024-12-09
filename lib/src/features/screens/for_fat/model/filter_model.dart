@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Карточка фильтра по типу кожи
 class FilterModel extends StatelessWidget {
   final Function()? onTap;
   final String buttonText;
@@ -23,7 +24,7 @@ class FilterModel extends StatelessWidget {
             child: Text(
               buttonText,
               style: AppTypography.raleway14Medium.copyWith(
-                  color: active ? AppColors.colorwhite : AppColors.colorBlack),
+                  color: active ? AppColors.colorWhite : AppColors.colorBlack),
             ),
           ),
         ),

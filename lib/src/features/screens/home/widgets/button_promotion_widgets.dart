@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// кнопка для участия в акции
 class ButtonPromotionWidgets extends StatelessWidget {
   const ButtonPromotionWidgets({
     super.key,
@@ -16,7 +17,7 @@ class ButtonPromotionWidgets extends StatelessWidget {
         child: DecoratedBox(
           decoration: BoxDecoration(
             border: Border.all(
-              color: AppColors.colorwhite,
+              color: AppColors.colorWhite,
             ),
             borderRadius: BorderRadius.circular(3),
           ),
@@ -24,7 +25,7 @@ class ButtonPromotionWidgets extends StatelessWidget {
             child: Text(
               AppStrings.goToThePromotion,
               style: AppTypography.raleway12SemiBold
-                  .copyWith(color: AppColors.colorwhite),
+                  .copyWith(color: AppColors.colorWhite),
             ),
           ),
         ),

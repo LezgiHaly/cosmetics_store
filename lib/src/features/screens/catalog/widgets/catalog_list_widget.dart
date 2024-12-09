@@ -24,6 +24,7 @@ class CatalogListWidget extends StatelessWidget {
           ButtonModelCatalog(
             buttonText: AppStrings.skinType,
             onPressed: () {
+              /// Переход на экран с типами кожи
               Navigator.push(
                 context,
                 MaterialPageRoute(

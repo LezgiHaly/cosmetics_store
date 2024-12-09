@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/features/screens/new_products/new_products.dart';
 import 'package:flutter/material.dart';
 
+/// экран новых продуктов
 class NewProductsScreen extends StatelessWidget {
   const NewProductsScreen({super.key});
 
@@ -11,7 +12,7 @@ class NewProductsScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          NameWidget(),
+          NameScreenWidget(),
           SizedBox(
             height: 10,
           ),

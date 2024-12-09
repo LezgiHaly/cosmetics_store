@@ -1,8 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/models/product_model/product_model.dart';
-
 import 'package:flutter/material.dart';
 
+///список хитовых продуктов
 class ProductsWidget extends StatelessWidget {
   const ProductsWidget({super.key});
 

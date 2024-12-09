@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// наименование экрана
 class TitleWidget extends StatelessWidget {
   const TitleWidget({super.key});
 

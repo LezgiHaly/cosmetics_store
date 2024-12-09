@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+///карточка кнопки Тип кожи
 class ButtonModelSkinType extends StatelessWidget {
   final void Function()? onPressed;
   final String buttonText;

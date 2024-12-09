@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/features/screens/hits/hits.dart';
 import 'package:flutter/material.dart';
 
+/// Экран хитовых продуктов
 class HitsScreen extends StatelessWidget {
   const HitsScreen({super.key});
 
@@ -10,9 +11,8 @@ class HitsScreen extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        // mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          NameWidget(),
+          NameScreenWidget(),
           SizedBox(
             height: 10,
           ),

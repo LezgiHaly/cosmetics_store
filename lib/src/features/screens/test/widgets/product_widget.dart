@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/test/test.dart';
 import 'package:flutter/material.dart';
 
+/// список продуктов
 class ProductWidget extends StatelessWidget {
   const ProductWidget({super.key});
 

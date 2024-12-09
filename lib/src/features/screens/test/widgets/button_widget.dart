@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// кнопка Пройти тест
 class ButtonsWidgetTest extends StatelessWidget {
   const ButtonsWidgetTest({super.key});
 
@@ -13,14 +14,14 @@ class ButtonsWidgetTest extends StatelessWidget {
         height: 40,
         child: DecoratedBox(
           decoration: BoxDecoration(
-           color: AppColors.colorVampireBlack ,
+            color: AppColors.colorVampireBlack,
             borderRadius: BorderRadius.circular(9),
           ),
           child: Center(
             child: Text(
               AppStrings.takeTheTest,
               style: AppTypography.raleway12SemiBold
-                  .copyWith(color: AppColors.colorwhite),
+                  .copyWith(color: AppColors.colorWhite),
             ),
           ),
         ),

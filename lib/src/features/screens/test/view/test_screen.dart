@@ -1,8 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/test/test.dart';
-
 import 'package:flutter/material.dart';
 
+///Экран схемы ухода и тестирования
 class TestScreen extends StatelessWidget {
   const TestScreen({super.key});
 
@@ -41,7 +41,7 @@ class TestScreen extends StatelessWidget {
                     width: 22,
                   ),
                   ButtonsWidgetTest(),
-                   SizedBox(
+                  SizedBox(
                     width: 2,
                   ),
                 ],

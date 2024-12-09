@@ -7,7 +7,7 @@ class AppColors {
   static const colorLightCyanide = Color(0xFF66F6DC);
   static const colorBlack = Color(0xFF000000);
   static const colorVampireBlack = Color(0xFF080808);
-  static const colorwhite = Color(0xFFFFFFFF);
+  static const colorWhite = Color(0xFFFFFFFF);
   static const colorPink = Color(0xFFff8087);
   static const colorGray = Color(0xFFeaeceb);
   static const colorLigthBly = Color(0xFFd3d5d8);

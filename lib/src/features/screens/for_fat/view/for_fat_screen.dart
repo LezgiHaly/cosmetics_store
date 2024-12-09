@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/for_fat/for_fat.dart';
 import 'package:flutter/material.dart';
 
+/// Экран средства для жирной кожи
 class ForFatScreen extends StatefulWidget {
   const ForFatScreen({super.key});
 
@@ -15,6 +16,7 @@ class _ForFatScreenState extends State<ForFatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.colorWhite,
       appBar: const CostomAppBarForFatWidget(),
       body: ValueListenableBuilder(
         valueListenable: filters,

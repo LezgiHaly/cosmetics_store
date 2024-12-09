@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// карточка категорий
 class CategoryModel extends StatelessWidget {
   final String image;
   final String text;

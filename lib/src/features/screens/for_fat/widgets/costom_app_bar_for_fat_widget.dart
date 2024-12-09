@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// App Bar для экрана по типу жирная кожа
 class CostomAppBarForFatWidget extends StatelessWidget
     implements PreferredSizeWidget {
   const CostomAppBarForFatWidget({super.key});
@@ -8,6 +9,7 @@ class CostomAppBarForFatWidget extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      backgroundColor: AppColors.colorWhite,
       title: const SizedBox(
         width: 212,
         child: Text(

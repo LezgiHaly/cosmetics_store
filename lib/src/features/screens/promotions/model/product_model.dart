@@ -2,15 +2,14 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/models/product_model/product_model.dart';
 import 'package:flutter/material.dart';
 
+/// расширении модели продукта
 class ProductModel extends ProductModelGlobal {
-  
   final String promotionsPrise;
   final bool onePlusOne;
 
   const ProductModel(
       {super.key,
       required this.onePlusOne,
-      
       required this.promotionsPrise,
       required super.imageName,
       required super.productCategory,
@@ -19,7 +18,6 @@ class ProductModel extends ProductModelGlobal {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      
       width: 170,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,13 +42,13 @@ class ProductModel extends ProductModelGlobal {
               ),
             ),
             if (onePlusOne == true)
-             Positioned(
-              top: 41,
-              right: 8,
-              child: Image.asset(
-                AppAssets.icOnePlusOne,
+              Positioned(
+                top: 41,
+                right: 8,
+                child: Image.asset(
+                  AppAssets.icOnePlusOne,
+                ),
               ),
-            ),
           ]),
           const SizedBox(
             height: 7,

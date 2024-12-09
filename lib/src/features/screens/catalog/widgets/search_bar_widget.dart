@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Строка поиска
 class SearchBarWidget extends StatelessWidget {
   const SearchBarWidget({super.key});
 

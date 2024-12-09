@@ -18,6 +18,7 @@ class ListFilters extends StatelessWidget {
         builder: (context, value, child) {
           return Row(
             children: [
+              /// получаем фильтр
               for (final filter in Filters.values)
                 Padding(
                   padding: const EdgeInsets.only(right: 18),
@@ -35,12 +36,14 @@ class ListFilters extends StatelessWidget {
   }
 }
 
+/// Энум со списком филтров
 enum Filters {
   cleaning,
   humidification,
   regeneration,
 }
 
+/// получаем фильтры
 String getFilter(Filters filters) {
   switch (filters) {
     case Filters.cleaning:
@@ -49,7 +52,5 @@ String getFilter(Filters filters) {
       return AppStrings.humidification;
     case Filters.regeneration:
       return AppStrings.regeneration;
-    default:
-      return '';
   }
 }

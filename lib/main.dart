@@ -1,6 +1,5 @@
 import 'package:cosmetics_store/src/features/screens/catalog/catalog.dart';
 import 'package:flutter/material.dart';
-
 import 'src/assets/assets.dart';
 import 'src/features/screens/home/home.dart';
 
@@ -18,9 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:
-      // CatalogScreen(),
-      const AppScreen(),
+      home: const AppScreen(),
     );
   }
 }
@@ -54,32 +51,33 @@ class _AppScreenState extends State<AppScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: AppColors.colorwhite,
+        backgroundColor: AppColors.colorWhite,
         body: Center(child: widgetOptions.elementAt(selectedIndex)),
         bottomNavigationBar: BottomNavigationBar(
           enableFeedback: false,
-          backgroundColor: AppColors.colorwhite,
-           type: BottomNavigationBarType.fixed,
+          backgroundColor: AppColors.colorWhite,
+          type: BottomNavigationBarType.fixed,
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-              backgroundColor: AppColors.colorwhite,
+              backgroundColor: AppColors.colorWhite,
               icon: Image.asset(AppAssets.icHome),
               label: AppStrings.home,
             ),
             BottomNavigationBarItem(
-                backgroundColor: AppColors.colorwhite,
+                backgroundColor: AppColors.colorWhite,
                 icon: Image.asset(AppAssets.icSearch),
                 label: 'Каталог'),
             BottomNavigationBarItem(
-                backgroundColor: AppColors.colorwhite,
+                backgroundColor: AppColors.colorWhite,
                 icon: Image.asset(AppAssets.icCaet),
                 label: 'корзина'),
             BottomNavigationBarItem(
-                backgroundColor: AppColors.colorwhite,
+                backgroundColor: AppColors.colorWhite,
                 icon: Image.asset(AppAssets.icProfile),
                 label: 'Профиль'),
           ],
           selectedItemColor: AppColors.colorBlack,
+          // ignore: deprecated_member_use
           unselectedItemColor: AppColors.colorBlack.withOpacity(0.3),
           selectedLabelStyle: AppTypography.raleway10Medium,
           unselectedLabelStyle: AppTypography.raleway10Medium,

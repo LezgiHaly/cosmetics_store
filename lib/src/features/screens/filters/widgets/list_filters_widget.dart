@@ -1,7 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
-import 'package:cosmetics_store/src/features/filters/filters.dart';
+import 'package:cosmetics_store/src/features/screens/filters/filters.dart';
 import 'package:flutter/material.dart';
 
+/// Список фильтров
 class ListFiltersWidget extends StatelessWidget {
   const ListFiltersWidget({super.key});
 

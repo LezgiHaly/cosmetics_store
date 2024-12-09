@@ -3,6 +3,7 @@ import 'package:cosmetics_store/src/features/screens/for_fat/for_fat.dart';
 import 'package:cosmetics_store/src/features/screens/skin%20_type/model/button_model_skin_type.dart';
 import 'package:flutter/material.dart';
 
+///класификация по типу кожи
 class SckinTypeList extends StatelessWidget {
   const SckinTypeList({super.key});
 

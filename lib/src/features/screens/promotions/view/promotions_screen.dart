@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/features/screens/promotions/promotions.dart'
 import 'package:cosmetics_store/src/features/screens/promotions/widgets/buttons_widget.dart';
 import 'package:flutter/material.dart';
 
+///Экран продуктов по акции
 class PromotionsScreen extends StatelessWidget {
   const PromotionsScreen({super.key});
 
@@ -12,7 +13,7 @@ class PromotionsScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          NameWidget(),
+          NameScreenWidget(),
           SizedBox(
             height: 10,
           ),

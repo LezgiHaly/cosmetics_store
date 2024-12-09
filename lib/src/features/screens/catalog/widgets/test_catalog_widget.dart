@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/test/test.dart';
 import 'package:flutter/material.dart';
 
+///баннер с предложение пройти тест
 class TestCatalogWidget extends StatelessWidget {
   const TestCatalogWidget({super.key});
 

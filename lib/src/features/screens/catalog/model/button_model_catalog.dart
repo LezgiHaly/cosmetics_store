@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Модель кнопки
 class ButtonModelCatalog extends StatelessWidget {
   final void Function()? onPressed;
   final String buttonText;

@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/home/widgets/button_promotion_widgets.dart';
 import 'package:flutter/material.dart';
 
+/// карусель фотграфий
 class ImageSliderWidget extends StatelessWidget {
   const ImageSliderWidget({super.key});
 
@@ -74,7 +75,7 @@ class _ImageSliderScreenState extends State<ImageSliderScreen> {
                     Text(
                       AppStrings.discount15Prosent,
                       style: AppTypography.vela35SemiBold.copyWith(
-                        color: AppColors.colorwhite,
+                        color: AppColors.colorWhite,
                       ),
                     ),
                     Row(
@@ -85,7 +86,7 @@ class _ImageSliderScreenState extends State<ImageSliderScreen> {
                             Text(
                               AppStrings.serum,
                               style: AppTypography.vela16Regular.copyWith(
-                                color: AppColors.colorwhite,
+                                color: AppColors.colorWhite,
                               ),
                             ),
                             const SizedBox(
@@ -94,7 +95,7 @@ class _ImageSliderScreenState extends State<ImageSliderScreen> {
                             Text(
                               'HA EYE & NECK SERUM',
                               style: AppTypography.vela16Regular.copyWith(
-                                color: AppColors.colorwhite,
+                                color: AppColors.colorWhite,
                               ),
                             ),
                           ],
@@ -113,6 +114,7 @@ class _ImageSliderScreenState extends State<ImageSliderScreen> {
     );
   }
 
+  /// индикатор открытой фотографии
   List<Widget> _buildPageIndicator() {
     List<Widget> indicators = [];
     for (int i = 0; i < _images.length; i++) {

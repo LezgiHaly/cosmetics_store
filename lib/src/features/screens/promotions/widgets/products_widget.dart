@@ -3,6 +3,7 @@ import 'package:cosmetics_store/src/features/screens/promotions/promotions.dart'
 
 import 'package:flutter/material.dart';
 
+/// католог аукионных продуктов
 class ProductsWidget extends StatelessWidget {
   const ProductsWidget({super.key});
 

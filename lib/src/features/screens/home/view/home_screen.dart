@@ -5,6 +5,7 @@ import 'package:cosmetics_store/src/features/screens/promotions/promotions.dart'
 import 'package:cosmetics_store/src/features/screens/test/test.dart';
 import 'package:flutter/material.dart';
 
+/// Домашний экран
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 

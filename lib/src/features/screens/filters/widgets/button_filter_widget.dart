@@ -1,6 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Кнопка применения выбранных фильтров
+
 class ButtonFilterWidget extends StatelessWidget {
   const ButtonFilterWidget({super.key});
 
@@ -13,14 +15,14 @@ class ButtonFilterWidget extends StatelessWidget {
         height: 56,
         child: DecoratedBox(
           decoration: BoxDecoration(
-           color: AppColors.colorVampireBlack ,
+            color: AppColors.colorVampireBlack,
             borderRadius: BorderRadius.circular(9),
           ),
           child: Center(
             child: Text(
               AppStrings.applyFilters,
               style: AppTypography.raleway16SemiBold
-                  .copyWith(color: AppColors.colorwhite),
+                  .copyWith(color: AppColors.colorWhite),
             ),
           ),
         ),
@@ -28,4 +30,3 @@ class ButtonFilterWidget extends StatelessWidget {
     );
   }
 }
-

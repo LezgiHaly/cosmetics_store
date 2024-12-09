@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Карточка продукта
 class ProductModelGlobal extends StatelessWidget {
   final String imageName;
   final String productCategory;

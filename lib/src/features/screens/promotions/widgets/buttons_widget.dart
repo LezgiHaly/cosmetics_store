@@ -2,6 +2,7 @@ import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:cosmetics_store/src/features/screens/promotions/model/button_model.dart';
 import 'package:flutter/material.dart';
 
+/// виджет категорий продуктов
 class ButtonsWidget extends StatelessWidget {
   const ButtonsWidget({super.key});
 

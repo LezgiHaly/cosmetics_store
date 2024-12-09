@@ -1,6 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Модель поля фильра
+
 class FiltersModel extends StatelessWidget {
   final String filterTitle;
   final String filter;
@@ -20,6 +22,7 @@ class FiltersModel extends StatelessWidget {
         Text(
           filter,
           style: AppTypography.raleway16SemiBold
+              // ignore: deprecated_member_use
               .copyWith(color: AppColors.colorBlack.withOpacity(0.5)),
         )
       ],

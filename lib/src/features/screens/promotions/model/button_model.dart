@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// модель кнопки выбора категории продукта
 class ButtonModel extends StatelessWidget {
   final String title;
   const ButtonModel({super.key, required this.title});
@@ -15,8 +16,8 @@ class ButtonModel extends StatelessWidget {
         child: DecoratedBox(
           decoration: BoxDecoration(
             border: Border.all(
+              // ignore: deprecated_member_use
               color: AppColors.colorBlack.withOpacity(0.1),
-            
             ),
             borderRadius: BorderRadius.circular(9),
           ),

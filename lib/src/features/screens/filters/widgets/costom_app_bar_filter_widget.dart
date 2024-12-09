@@ -1,6 +1,8 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// Кастомный App Bar
+
 class CostomAppBarFilterWidget extends StatelessWidget
     implements PreferredSizeWidget {
   const CostomAppBarFilterWidget({super.key});

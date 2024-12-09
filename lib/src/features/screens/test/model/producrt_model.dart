@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// карточка продукта для экрана схемы ухода и тестирования
 class ProducrtModelTest extends StatelessWidget {
   final String imageName;
   final String productCategoey;

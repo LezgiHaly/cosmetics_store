@@ -1,6 +1,7 @@
 import 'package:cosmetics_store/src/assets/assets.dart';
 import 'package:flutter/material.dart';
 
+/// тест вопроса
 class TexQestions extends StatelessWidget {
   const TexQestions({super.key});
 

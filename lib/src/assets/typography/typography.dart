@@ -48,7 +48,7 @@ class AppTypography {
     height: 1.25,
     fontWeight: FontWeight.w600,
   );
-   static const raleway20Bold = TextStyle(
+  static const raleway20Bold = TextStyle(
     fontSize: 20.0,
     height: 1.25,
     fontWeight: FontWeight.w700,
@@ -72,15 +72,5 @@ class AppTypography {
     fontSize: 16.0,
     height: 1.25,
     fontWeight: FontWeight.w500,
-  );
-  static const text18Bold = TextStyle(
-    fontSize: 18.0,
-    height: 1.25,
-    fontWeight: FontWeight.w600,
-  );
-  static const text24Bold = TextStyle(
-    fontSize: 24.0,
-    height: 1.25,
-    fontWeight: FontWeight.w600,
   );
 }
