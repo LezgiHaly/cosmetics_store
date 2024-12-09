@@ -16,7 +16,8 @@ class ProductsWidget extends StatelessWidget {
               imageName: AppAssets.unstressTotal,
               productCategory: AppStrings.serum,
               productName: 'Unstress Total Serenity Serum',
-              price: '10 195'),
+              price: '10 195'
+              ),
           SizedBox(
             width: 14,
           ),

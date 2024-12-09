@@ -24,32 +24,35 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/icons/icСart.png
-    - assets/icons/icHome.png
-    - assets/icons/icProfile.png
-    - assets/icons/icSearch.png
-    - assets/images/sets.png
-    - assets/images/for_face.png
-    - assets/images/for_body.png
-    - assets/images/for_eyes.png
-    - assets/images/washing.png
-    - assets/images/unstress5.png
-    - assets/images/unstress.png
-    - assets/images/muse7.png
-    - assets/icons/icPromot.png
-    - assets/icons/icPromoto1.png
-    - assets/icons/icOnePlusOne.png
-    - assets/images/muse.png
-    - assets/images/cream.png
-    - assets/images/cream2.png
-    - assets/images/bacTest.png
-    - assets/images/categ4.png
-    - assets/images/categ3.png
-    - assets/images/categ2.png
-    - assets/images/categ1.png
-    - assets/images/cat.jpg
-    - assets/images/home1.png
-    - assets/images/home2.png
+    - assets/icons/
+    # icСart.png
+    # - assets/icons/icHome.png
+    # - assets/icons/icProfile.png
+    # - assets/icons/icSearch.png
+    # - assets/images/sets.png
+    # - assets/images/for_face.png
+    # - assets/images/for_body.png
+    # - assets/images/for_eyes.png
+    # - assets/images/washing.png
+    # - assets/images/unstress5.png
+    # - assets/images/unstress.png
+    # - assets/images/muse7.png
+    # - assets/icons/icPromot.png
+    # - assets/icons/icPromoto1.png
+    # - assets/icons/icOnePlusOne.png
+    - assets/images/
+    # muse.png
+    # - assets/images/cream.png
+    # - assets/images/cream2.png
+    # - assets/images/bacTest.png
+    # - assets/images/categ4.png
+    # - assets/images/categ3.png
+    # - assets/images/categ2.png
+    # - assets/images/categ1.png
+    # - assets/images/cat.jpg
+    # - assets/images/home1.png
+    # - assets/images/home2.png
+    # - assets/icons/icFiltres.png
 
     # - images/a_dot_ham.jpeg
 

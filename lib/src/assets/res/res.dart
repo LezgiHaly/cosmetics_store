@@ -7,6 +7,7 @@ class AppAssets {
   static const icPromot = 'assets/icons/icPromot.png';
   static const icPromoto1 = 'assets/icons/icPromoto1.png';
   static const icOnePlusOne = 'assets/icons/icOnePlusOne.png';
+  static const iCFiltres = 'assets/icons/icFiltres.png';
   static const sets = 'assets/images/sets.png';
   static const forFace = 'assets/images/for_face.png';
   static const forBody = 'assets/images/for_body.png';
