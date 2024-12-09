@@ -17,4 +17,5 @@ class AppColors {
   static const colorElectricPink = Color(0xFFF02980);
   static const colorOrangeRed = Color(0xFFF86614);
   static const colorRajah = Color(0xFFFCBC5C);
+  static const cultured = Color(0xFFF4F4F4);
 }

@@ -7,17 +7,19 @@ class ProductWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const  SingleChildScrollView(
+    return const SingleChildScrollView(
       scrollDirection: Axis.horizontal,
-      child:  Row(
+      child: Row(
         children: [
           ProducrtModelTest(
-              imageName: AppAssets.categ1, productCategoey: AppStrings.demakage),
+              imageName: AppAssets.categ1,
+              productCategoey: AppStrings.demakage),
           SizedBox(
             width: 12,
           ),
           ProducrtModelTest(
-              imageName: AppAssets.categ2, productCategoey: AppStrings.cleaning),
+              imageName: AppAssets.categ2,
+              productCategoey: AppStrings.cleaning),
           SizedBox(
             width: 12,
           ),
@@ -27,7 +29,8 @@ class ProductWidget extends StatelessWidget {
             width: 12,
           ),
           ProducrtModelTest(
-              imageName: AppAssets.categ4, productCategoey: AppStrings.dayCream),
+              imageName: AppAssets.categ4,
+              productCategoey: AppStrings.dayCream),
         ],
       ),
     );

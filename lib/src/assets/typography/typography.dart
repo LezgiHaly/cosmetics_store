@@ -23,6 +23,11 @@ class AppTypography {
     height: 1.25,
     fontWeight: FontWeight.w500,
   );
+  static const raleway18Medium = TextStyle(
+    fontSize: 18.0,
+    height: 1.25,
+    fontWeight: FontWeight.w500,
+  );
   static const raleway12SemiBold = TextStyle(
     fontSize: 12.0,
     height: 1.25,
@@ -43,6 +48,11 @@ class AppTypography {
     height: 1.25,
     fontWeight: FontWeight.w600,
   );
+   static const raleway20Bold = TextStyle(
+    fontSize: 20.0,
+    height: 1.25,
+    fontWeight: FontWeight.w700,
+  );
   static const vela16Regular = TextStyle(
     fontSize: 16.0,
     height: 1.25,
@@ -58,10 +68,10 @@ class AppTypography {
     height: 1.25,
     fontWeight: FontWeight.w700,
   );
-  static const text16Regular = TextStyle(
+  static const montserrat16Medium = TextStyle(
     fontSize: 16.0,
     height: 1.25,
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w500,
   );
   static const text18Bold = TextStyle(
     fontSize: 18.0,

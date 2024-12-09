@@ -1,3 +1,4 @@
+import 'package:cosmetics_store/src/features/screens/catalog/catalog.dart';
 import 'package:flutter/material.dart';
 
 import 'src/assets/assets.dart';
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AppScreen(),
+      home:
+      // CatalogScreen(),
+      const AppScreen(),
     );
   }
 }
@@ -39,9 +42,7 @@ class _AppScreenState extends State<AppScreen> {
 
   final List<Widget> widgetOptions = <Widget>[
     const HomeScreen(),
-    const Text(
-      'Каталог',
-    ),
+    const CatalogScreen(),
     const Text(
       "Rорзина",
     ),
@@ -58,6 +59,7 @@ class _AppScreenState extends State<AppScreen> {
         bottomNavigationBar: BottomNavigationBar(
           enableFeedback: false,
           backgroundColor: AppColors.colorwhite,
+           type: BottomNavigationBarType.fixed,
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               backgroundColor: AppColors.colorwhite,
